@@ -188,10 +188,10 @@ a:focus {
    .footer {
   padding: 25px 10px;
   /* Set the fixed height of the footer here */
-  height: 175px;
+  height: 200px;
  }
  body {
-  margin-bottom: 175px;
+  margin-bottom: 200px;
 }
 }
 @media (max-width: 380px) {
