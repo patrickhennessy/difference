@@ -197,6 +197,6 @@ a:focus {
 @media (max-width: 380px) {
   .navbar-inverse .navbar-brand {
   width: 250px;
-  height: auto;
+  height: 55px;
 }
 }
