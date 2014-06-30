@@ -1,0 +1,186 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+html {
+  position: relative;
+  min-height: 100%;
+}
+::selection { background:#FFC600; color:#FFFFFF; }
+::-moz-selection { background:#FFC600; color:#FFFFFF; }
+::-webkit-selection { background:#FFC600; color:#FFFFFF; }
+body {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-bottom: 100px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #5a5a5a;
+}
+
+a {
+  color: #006699;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #07294D;
+  text-decoration: underline;
+}
+.form-control:focus {
+  border-color: #006699;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 102, 153, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 102, 153, .6);
+}
+.btn-default {
+  color: #999;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #006699;
+  border-color: #07294D;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #07294D;
+  border-color: #07294d;
+}
+
+.allcaps {
+  text-transform: uppercase;
+}
+
+.navbar-inverse {
+  background-color: #07294D;
+    border-color: #006699;
+}
+.navbar-inverse .navbar-brand {
+  height: 65px;
+  margin-top: -5px;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #FFC600;
+  background-color: transparent;
+}
+.navbar-toggle {
+  margin-top: 12px;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #006699;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #006699;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #006699;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFF;
+  letter-spacing: 0.1em;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #FFC600;
+  background-color: transparent;
+}
+.navbar-right {
+  margin-top: 5px;
+}
+.subhead {
+  font-weight: bold;
+  color: #006699;
+}
+
+.billboard {
+  width: 100%;
+}
+
+.social-icons {
+  letter-spacing: 0.5em;
+  padding-bottom: 20px;
+}
+ .footer {
+  padding: 25px 0px;
+  background-color: #e1e1e0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+ }
+/* Featurettes
+------------------------- */
+
+.rmi {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.featurette-hr {
+  border-top: 1px solid #ffc600;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette {
+  margin: 20px 0px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+.tooltip-inner {
+  background-color: #5a5a5a;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #5a5a5a;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+  .subhead {
+    font-size: 18px;
+  }
+  .navbar-inverse .navbar-brand {
+  font-size: 22px;
+}
+.featurette {
+  margin: 40px 0px;
+
+}
+.lead {
+    font-size: 16px;
+  }
+  .social-icons {
+    text-align: right;
+  }
+}
+@media (max-width: 767px) {
+   .footer {
+  padding: 25px 25px;
+  /* Set the fixed height of the footer here */
+  height: 175px;
+ }
+ body {
+  margin-bottom: 175px;
+}
+}
