@@ -186,7 +186,7 @@ a:focus {
 }
 @media (max-width: 767px) {
    .footer {
-  padding: 25px 25px;
+  padding: 25px 10px;
   /* Set the fixed height of the footer here */
   height: 175px;
  }
