@@ -193,4 +193,8 @@ a:focus {
  body {
   margin-bottom: 175px;
 }
+.navbar-inverse .navbar-brand {
+  width: 290px;
+  height: auto;
+}
 }
