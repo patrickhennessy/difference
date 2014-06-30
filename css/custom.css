@@ -144,7 +144,7 @@ a:focus {
 }
 
 .featurette {
-  margin: 20px 0px;
+  margin: 0px 0px;
 }
 .lead {
   margin-bottom: 20px;
@@ -194,7 +194,7 @@ a:focus {
   margin-bottom: 200px;
 }
 }
-@media (max-width: 380px) {
+@media (max-width: 450px) {
   .navbar-inverse .navbar-brand {
   width: 250px;
   height: 55px;
