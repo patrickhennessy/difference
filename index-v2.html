@@ -108,21 +108,7 @@
 
     
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-     
-      </div>
-      
-    </div>
-  </div>
-</div><!-- END MODAL -->
+
           </div>
         </div>
       </div>
@@ -399,7 +385,32 @@
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/retina.min.js"></script>
     <script src="js/ekko-lightbox.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function ($) {
+                // delegate calls to data-toggle="lightbox"
+                $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+                    event.preventDefault();
+                    return $(this).ekkoLightbox({
+                        onShown: function() {
+                            if (window.console) {
+                                return console.log('Checking our the events huh?');
+                            }
+                        }
+                    });
+                });
 
+                //Programatically call
+                $('#open-image').click(function (e) {
+                    e.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+                $('#open-youtube').click(function (e) {
+                    e.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+
+            });
+        </script>
         
 <script type="text/javascript">
 $(document).ready(function(){
