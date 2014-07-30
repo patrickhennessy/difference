@@ -53,6 +53,11 @@ a:focus {
   display: block;
   color: #006699;
 }
+.degree-list {
+  list-style-type: none;
+  margin-left: 10px;
+  padding-left: 0;
+}
 .degree-list-item {
   line-height: 2em;
 }
@@ -208,7 +213,7 @@ a:focus {
   font-size: 22px;
 }
 .featurette {
-  margin: 40px 0px;
+  margin: 30px 0px;
 }
 
 .lead {
