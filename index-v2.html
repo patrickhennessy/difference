@@ -140,33 +140,36 @@
 
       <div class="row featurette">
         <div class="col-md-8">
-          <h2 class="featurette-heading text-muted" id="rmi">Let&rsquo;s get started.</h2>
-          <p class="lead">Fill out this short form to receive more information on Drexel&rsquo;s online programs. Our enrollment counselors are available to guide you through every step of the admissions process including questions on financial aid, transfer credits, military and veteran education benefits and more.</p>
-                   <img class="featurette-image img-responsive center-block" src="images/rmi-icon.png" alt="Phone and Letter">
+        <h1 class="text-muted">Hear from our students:</h1>
+          <div class="video-container">
+          <iframe width="760" height="428" src="http://www.youtube.com/embed/7mvwOSqy_RM?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
         </div>
 
         <!-- REQUEST MORE INFORMATION FORM HERE -->
 
         <div class="col-md-4">
+          <h1 class="text-muted" id="rmi">Let&rsquo;s get started.</h1>
+          <p class="lead">Fill out this form to receive more info on Drexel&rsquo;s online programs. Our enrollment counselors are available to guide you through every step of the admissions process.</p>
 <form class="rmi" role="form">
   <div class="form-group">
-    <label for="InputFname1">First Name</label>
+    <label for="InputFname1" class="hidden">First Name</label>
     <input type="text" class="form-control" id="InputFname1" placeholder="Enter your first name">
   </div>
     <div class="form-group">
-    <label for="InputLname1">Last Name</label>
+    <label for="InputLname1" class="hidden">Last Name</label>
     <input type="text" class="form-control" id="InputLname1" placeholder="Enter your last name">
   </div>
-  <div class="form-group">
-    <label for="InputEmail1">Email Address</label>
+  <div class="form-group" >
+    <label for="InputEmail1" class="hidden">Email Address</label>
     <input type="email" class="form-control" id="InputEmail1" placeholder="Enter your email">
   </div>
   <div class="form-group">
-    <label for="InputPhone1">Phone Number</label>
+    <label for="InputPhone1" class="hidden">Phone Number</label>
     <input type="tel" class="form-control" id="InputPhone1" placeholder="Enter your phone number">
   </div>
   <div class="form-group">
-    <label for="InputDegree1">Program of Interest</label>
+    <label for="InputDegree1" class="hidden">Program of Interest</label>
   <select name="ctl00$cpSidebar$shortRMI$ddlProgram" onchange="$.fn.popUpSubmitOverlay();setTimeout('__doPostBack(\'ctl00$cpSidebar$shortRMI$ddlProgram\',\'\')', 0)" id="ctl00_cpSidebar_shortRMI_ddlProgram" class="form-control SFid~00N30000001Zg5C~~ dynamicDropdown inputError" title="Please pick a program" required="required">
     <option selected="selected" value="" disabled="disabled">Choose your program...</option>
     <option value="69   ">Adult-Gerontology Acute Care Nurse Practitioner Post-Graduate Certificate</option>
@@ -310,7 +313,7 @@
 </select>
 </div>
   <div class="form-group">
-    <label for="InputTerm1">Enrollment Term</label>
+    <label for="InputTerm1" class="hidden">Enrollment Term</label>
 <select name="ctl00$cpSidebar$shortRMI$ddlTerm" id="ctl00_cpSidebar_shortRMI_ddlTerm" title="Pick a term" required="required" class="form-control inputError">
     <option value="" disabled="disabled" selected="selected">Select a term...</option>
     <option value="201415">Fall 2014</option>

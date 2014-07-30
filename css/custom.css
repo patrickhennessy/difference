@@ -99,7 +99,7 @@ a:focus {
 }
 .col-centered {
   float: none;
-margin: 0 auto
+  margin: 0 auto
 }
 .video-container {
     position: relative;
@@ -129,17 +129,13 @@ margin: 0 auto
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-
   background-color: #777;
 }
-.carousel-inner > .item > img {
 
+.carousel-inner > .item > img {
   top: 0;
   left: 0;
-
-
 }
-
 
 .social-icons {
   letter-spacing: 0.5em;
@@ -204,11 +200,12 @@ margin: 0 auto
 }
 .featurette {
   margin: 40px 0px;
-
 }
+
 .lead {
     font-size: 16px;
   }
+  
   .social-icons {
     text-align: right;
   }
