@@ -9,7 +9,7 @@ html {
 ::-moz-selection { background:#FFC600; color:#FFFFFF; }
 ::-webkit-selection { background:#FFC600; color:#FFFFFF; }
 body {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 40px;
   margin-bottom: 150px;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -49,7 +49,13 @@ a:focus {
   background-color: #07294D;
   border-color: #07294d;
 }
-
+.panel-title a {
+  display: block;
+  color: #006699;
+}
+.degree-list-item {
+  line-height: 2em;
+}
 .allcaps {
   text-transform: uppercase;
 }
@@ -114,6 +120,9 @@ a:focus {
     left: 0;
     width: 100%;
     height: 100%;
+}
+.video-header {
+  margin-bottom: 15px;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -205,7 +214,7 @@ a:focus {
 .lead {
     font-size: 16px;
   }
-  
+
   .social-icons {
     text-align: right;
   }
